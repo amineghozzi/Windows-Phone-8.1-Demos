@@ -1,0 +1,4 @@
+C:\Users\tfennel\Documents\Visual Studio 2012\Projects\TheFinalCountdown\ScheduledTaskAgent1\Bin\Release\ScheduledTaskAgent1.dll
+C:\Users\tfennel\Documents\Visual Studio 2012\Projects\TheFinalCountdown\ScheduledTaskAgent1\Bin\Release\ScheduledTaskAgent1.pdb
+C:\Users\tfennel\Documents\Visual Studio 2012\Projects\TheFinalCountdown\ScheduledTaskAgent1\obj\Release\ScheduledTaskAgent1.dll
+C:\Users\tfennel\Documents\Visual Studio 2012\Projects\TheFinalCountdown\ScheduledTaskAgent1\obj\Release\ScheduledTaskAgent1.pdb

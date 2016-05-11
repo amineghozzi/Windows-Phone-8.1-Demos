@@ -1,0 +1,128 @@
+E:\Unity\accelometerDemo\accelometerDemo\obj\Debug\App.g.i.cs
+E:\Unity\accelometerDemo\accelometerDemo\obj\Debug\App.g.cs
+E:\Unity\accelometerDemo\accelometerDemo\obj\Debug\MainPage.g.i.cs
+E:\Unity\accelometerDemo\accelometerDemo\obj\Debug\MainPage.g.cs
+E:\Unity\accelometerDemo\accelometerDemo\obj\Debug\XamlTypeInfo.g.cs
+E:\Unity\accelometerDemo\accelometerDemo\obj\Debug\App.xaml
+E:\Unity\accelometerDemo\accelometerDemo\obj\Debug\App.xbf
+E:\Unity\accelometerDemo\accelometerDemo\obj\Debug\XamlSaveStateFile.xml
+E:\Unity\accelometerDemo\accelometerDemo\bin\Debug\App.xbf
+E:\Unity\accelometerDemo\accelometerDemo\bin\Debug\MainPage.xbf
+E:\Unity\accelometerDemo\accelometerDemo\bin\Debug\accelometerDemo.xr.xml
+E:\Unity\accelometerDemo\accelometerDemo\bin\Debug\accelometerDemo.exe
+E:\Unity\accelometerDemo\accelometerDemo\bin\Debug\accelometerDemo.pdb
+E:\Unity\accelometerDemo\accelometerDemo\bin\Debug\resources.pri
+E:\Unity\accelometerDemo\accelometerDemo\bin\Debug\AppxManifest.xml
+E:\Unity\accelometerDemo\accelometerDemo\bin\Debug\accelometerDemo.build.appxrecipe
+E:\Unity\accelometerDemo\accelometerDemo\obj\Debug\MainPage.xaml
+E:\Unity\accelometerDemo\accelometerDemo\obj\Debug\MainPage.xbf
+E:\Unity\accelometerDemo\accelometerDemo\obj\Debug\accelometerDemo.exe
+E:\Unity\accelometerDemo\accelometerDemo\obj\Debug\accelometerDemo.pdb
+E:\Unity\accelometerDemo\accelometerDemo\obj\Debug\priconfig.xml
+E:\Unity\accelometerDemo\accelometerDemo\obj\Debug\priconfig.xml.intermediate
+E:\Unity\accelometerDemo\accelometerDemo\obj\Debug\layout.resfiles
+E:\Unity\accelometerDemo\accelometerDemo\obj\Debug\layout.resfiles.intermediate
+E:\Unity\accelometerDemo\accelometerDemo\obj\Debug\resources.resfiles
+E:\Unity\accelometerDemo\accelometerDemo\obj\Debug\resources.resfiles.intermediate
+E:\Unity\accelometerDemo\accelometerDemo\obj\Debug\pri.resfiles
+E:\Unity\accelometerDemo\accelometerDemo\obj\Debug\pri.resfiles.intermediate
+E:\Unity\accelometerDemo\accelometerDemo\obj\Debug\qualifiers.txt
+E:\Unity\accelometerDemo\accelometerDemo\obj\Debug\qualifiers.txt.intermediate
+E:\Unity\accelometerDemo\accelometerDemo\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+E:\Unity\accelometerDemo\accelometerDemo\obj\Debug\ProjectArchitectures.txt
+C:\Users\Amine Ghozzi\Desktop\accelometerDemo\accelometerDemo\bin\Debug\App.xbf
+C:\Users\Amine Ghozzi\Desktop\accelometerDemo\accelometerDemo\bin\Debug\MainPage.xbf
+C:\Users\Amine Ghozzi\Desktop\accelometerDemo\accelometerDemo\bin\Debug\accelometerDemo.xr.xml
+C:\Users\Amine Ghozzi\Desktop\accelometerDemo\accelometerDemo\bin\Debug\accelometerDemo.exe
+C:\Users\Amine Ghozzi\Desktop\accelometerDemo\accelometerDemo\bin\Debug\accelometerDemo.pdb
+C:\Users\Amine Ghozzi\Desktop\accelometerDemo\accelometerDemo\bin\Debug\resources.pri
+C:\Users\Amine Ghozzi\Desktop\accelometerDemo\accelometerDemo\bin\Debug\AppxManifest.xml
+C:\Users\Amine Ghozzi\Desktop\accelometerDemo\accelometerDemo\bin\Debug\accelometerDemo.build.appxrecipe
+C:\Users\Amine Ghozzi\Desktop\accelometerDemo\accelometerDemo\obj\Debug\App.g.i.cs
+C:\Users\Amine Ghozzi\Desktop\accelometerDemo\accelometerDemo\obj\Debug\App.g.cs
+C:\Users\Amine Ghozzi\Desktop\accelometerDemo\accelometerDemo\obj\Debug\MainPage.g.i.cs
+C:\Users\Amine Ghozzi\Desktop\accelometerDemo\accelometerDemo\obj\Debug\MainPage.g.cs
+C:\Users\Amine Ghozzi\Desktop\accelometerDemo\accelometerDemo\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Amine Ghozzi\Desktop\accelometerDemo\accelometerDemo\obj\Debug\App.xaml
+C:\Users\Amine Ghozzi\Desktop\accelometerDemo\accelometerDemo\obj\Debug\MainPage.xaml
+C:\Users\Amine Ghozzi\Desktop\accelometerDemo\accelometerDemo\obj\Debug\App.xbf
+C:\Users\Amine Ghozzi\Desktop\accelometerDemo\accelometerDemo\obj\Debug\MainPage.xbf
+C:\Users\Amine Ghozzi\Desktop\accelometerDemo\accelometerDemo\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Amine Ghozzi\Desktop\accelometerDemo\accelometerDemo\obj\Debug\accelometerDemo.exe
+C:\Users\Amine Ghozzi\Desktop\accelometerDemo\accelometerDemo\obj\Debug\accelometerDemo.pdb
+C:\Users\Amine Ghozzi\Desktop\accelometerDemo\accelometerDemo\obj\Debug\priconfig.xml
+C:\Users\Amine Ghozzi\Desktop\accelometerDemo\accelometerDemo\obj\Debug\priconfig.xml.intermediate
+C:\Users\Amine Ghozzi\Desktop\accelometerDemo\accelometerDemo\obj\Debug\layout.resfiles
+C:\Users\Amine Ghozzi\Desktop\accelometerDemo\accelometerDemo\obj\Debug\layout.resfiles.intermediate
+C:\Users\Amine Ghozzi\Desktop\accelometerDemo\accelometerDemo\obj\Debug\resources.resfiles
+C:\Users\Amine Ghozzi\Desktop\accelometerDemo\accelometerDemo\obj\Debug\resources.resfiles.intermediate
+C:\Users\Amine Ghozzi\Desktop\accelometerDemo\accelometerDemo\obj\Debug\pri.resfiles
+C:\Users\Amine Ghozzi\Desktop\accelometerDemo\accelometerDemo\obj\Debug\pri.resfiles.intermediate
+C:\Users\Amine Ghozzi\Desktop\accelometerDemo\accelometerDemo\obj\Debug\qualifiers.txt
+C:\Users\Amine Ghozzi\Desktop\accelometerDemo\accelometerDemo\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Amine Ghozzi\Desktop\accelometerDemo\accelometerDemo\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Amine Ghozzi\Desktop\accelometerDemo\accelometerDemo\obj\Debug\ProjectArchitectures.txt
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\accelometerDemo\accelometerDemo\bin\Debug\App.xbf
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\accelometerDemo\accelometerDemo\bin\Debug\MainPage.xbf
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\accelometerDemo\accelometerDemo\bin\Debug\accelometerDemo.xr.xml
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\accelometerDemo\accelometerDemo\bin\Debug\accelometerDemo.exe
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\accelometerDemo\accelometerDemo\bin\Debug\accelometerDemo.pdb
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\accelometerDemo\accelometerDemo\bin\Debug\resources.pri
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\accelometerDemo\accelometerDemo\bin\Debug\AppxManifest.xml
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\accelometerDemo\accelometerDemo\bin\Debug\accelometerDemo.build.appxrecipe
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\accelometerDemo\accelometerDemo\obj\Debug\App.g.i.cs
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\accelometerDemo\accelometerDemo\obj\Debug\App.g.cs
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\accelometerDemo\accelometerDemo\obj\Debug\MainPage.g.i.cs
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\accelometerDemo\accelometerDemo\obj\Debug\MainPage.g.cs
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\accelometerDemo\accelometerDemo\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\accelometerDemo\accelometerDemo\obj\Debug\App.xaml
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\accelometerDemo\accelometerDemo\obj\Debug\MainPage.xaml
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\accelometerDemo\accelometerDemo\obj\Debug\App.xbf
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\accelometerDemo\accelometerDemo\obj\Debug\MainPage.xbf
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\accelometerDemo\accelometerDemo\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\accelometerDemo\accelometerDemo\obj\Debug\accelometerDemo.exe
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\accelometerDemo\accelometerDemo\obj\Debug\accelometerDemo.pdb
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\accelometerDemo\accelometerDemo\obj\Debug\priconfig.xml
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\accelometerDemo\accelometerDemo\obj\Debug\priconfig.xml.intermediate
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\accelometerDemo\accelometerDemo\obj\Debug\layout.resfiles
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\accelometerDemo\accelometerDemo\obj\Debug\layout.resfiles.intermediate
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\accelometerDemo\accelometerDemo\obj\Debug\resources.resfiles
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\accelometerDemo\accelometerDemo\obj\Debug\resources.resfiles.intermediate
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\accelometerDemo\accelometerDemo\obj\Debug\pri.resfiles
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\accelometerDemo\accelometerDemo\obj\Debug\pri.resfiles.intermediate
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\accelometerDemo\accelometerDemo\obj\Debug\qualifiers.txt
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\accelometerDemo\accelometerDemo\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\accelometerDemo\accelometerDemo\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\accelometerDemo\accelometerDemo\obj\Debug\ProjectArchitectures.txt
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\accelometerDemo\accelometerDemo\bin\Debug\App.xbf
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\accelometerDemo\accelometerDemo\bin\Debug\MainPage.xbf
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\accelometerDemo\accelometerDemo\bin\Debug\accelometerDemo.xr.xml
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\accelometerDemo\accelometerDemo\bin\Debug\accelometerDemo.exe
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\accelometerDemo\accelometerDemo\bin\Debug\accelometerDemo.pdb
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\accelometerDemo\accelometerDemo\bin\Debug\resources.pri
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\accelometerDemo\accelometerDemo\bin\Debug\AppxManifest.xml
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\accelometerDemo\accelometerDemo\bin\Debug\accelometerDemo.build.appxrecipe
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\accelometerDemo\accelometerDemo\obj\Debug\App.g.i.cs
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\accelometerDemo\accelometerDemo\obj\Debug\App.g.cs
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\accelometerDemo\accelometerDemo\obj\Debug\MainPage.g.i.cs
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\accelometerDemo\accelometerDemo\obj\Debug\MainPage.g.cs
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\accelometerDemo\accelometerDemo\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\accelometerDemo\accelometerDemo\obj\Debug\App.xaml
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\accelometerDemo\accelometerDemo\obj\Debug\MainPage.xaml
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\accelometerDemo\accelometerDemo\obj\Debug\App.xbf
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\accelometerDemo\accelometerDemo\obj\Debug\MainPage.xbf
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\accelometerDemo\accelometerDemo\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\accelometerDemo\accelometerDemo\obj\Debug\accelometerDemo.exe
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\accelometerDemo\accelometerDemo\obj\Debug\accelometerDemo.pdb
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\accelometerDemo\accelometerDemo\obj\Debug\priconfig.xml
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\accelometerDemo\accelometerDemo\obj\Debug\priconfig.xml.intermediate
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\accelometerDemo\accelometerDemo\obj\Debug\layout.resfiles
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\accelometerDemo\accelometerDemo\obj\Debug\layout.resfiles.intermediate
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\accelometerDemo\accelometerDemo\obj\Debug\resources.resfiles
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\accelometerDemo\accelometerDemo\obj\Debug\resources.resfiles.intermediate
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\accelometerDemo\accelometerDemo\obj\Debug\pri.resfiles
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\accelometerDemo\accelometerDemo\obj\Debug\pri.resfiles.intermediate
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\accelometerDemo\accelometerDemo\obj\Debug\qualifiers.txt
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\accelometerDemo\accelometerDemo\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\accelometerDemo\accelometerDemo\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\accelometerDemo\accelometerDemo\obj\Debug\ProjectArchitectures.txt

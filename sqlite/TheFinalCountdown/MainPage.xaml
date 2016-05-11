@@ -1,0 +1,379 @@
+<phone:PhoneApplicationPage
+    x:Class="TheFinalCountdown.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:c4f="clr-namespace:Coding4Fun.Phone.Controls;assembly=Coding4Fun.Phone.Controls"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+
+    <phone:PhoneApplicationPage.Resources>
+
+        <Storyboard x:Name="Grow">
+            <DoubleAnimation x:Name="growDoubleAnimation" Storyboard.TargetProperty="Height" From="0" Duration="0:0:0.25" />
+        </Storyboard>
+
+        <Storyboard x:Name="Shrink">
+            <DoubleAnimation x:Name="shrinkDoubleAnimation" Storyboard.TargetProperty="Height" To="0" Duration="0:0:0.25" />
+        </Storyboard>
+
+        <Style x:Key="ListBoxItemStretchContentStyle" TargetType="ListBoxItem">
+            <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+        </Style>
+
+    </phone:PhoneApplicationPage.Resources>
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <!--Pivot Control-->
+        <phone:Pivot x:Name="MainPagePivot" Title="THE FINAL COUNTDOWN">
+            <!--Pivot item one-->
+            <phone:PivotItem Header="tiles">
+                <!--Triple line list no text wrapping-->
+                <ListBox x:Name="SecondListBox" Margin="0,0,-12,0" ItemContainerStyle="{StaticResource ListBoxItemStretchContentStyle}">
+                    <ListBoxItem>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="240" />
+                                <ColumnDefinition Width="75"  />
+                                <ColumnDefinition Width="75"  />
+                                <ColumnDefinition Width="75"  />
+                            </Grid.ColumnDefinitions>
+
+                            <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Horizontal">
+                                <TextBlock Text="Primary" TextWrapping="NoWrap" Style="{StaticResource PhoneTextExtraLargeStyle}" VerticalAlignment="Center"/>
+                                <c4f:RoundToggleButton x:Name="btnPrimaryToggle" ButtonHeight="60" ButtonWidth="60" ImageSource="/Assets/Buttons/expand.png" VerticalAlignment="Bottom" Click="DoToggle"/>
+                            </StackPanel>
+
+                            <c4f:RoundButton x:Name="btnPrimarySet" Grid.Row="0" Grid.Column="1" ButtonWidth="75" ButtonHeight="75" ImageSource="/Assets/Buttons/set.png" Click="btnPrimarySet_Click" />
+                            <c4f:RoundButton x:Name="btnPrimaryUpdate" Grid.Row="0" Grid.Column="2" ButtonHeight="75" ButtonWidth="75" ImageSource="/Assets/Buttons/update.png" Click="btnPrimaryUpdate_Click"/>
+                            <c4f:RoundButton x:Name="btnPrimaryReset" Grid.Row="0" Grid.Column="3" ButtonHeight="75" ButtonWidth="75" ImageSource="/Assets/Buttons/reset.png" Click="btnPrimaryReset_Click" />
+
+                            <TextBlock Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" Text="Update or reset the Primary Tile" TextWrapping="NoWrap" Style="{StaticResource PhoneTextSubtleStyle}"/>
+
+                            <StackPanel x:Name="primaryStack" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="4" Height="0">
+                                <Grid Height="55">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*" />
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="60" />
+                                        <ColumnDefinition Width="60" />
+                                        <ColumnDefinition Width="20" />
+                                        <ColumnDefinition Width="60" />
+                                        <ColumnDefinition Width="60" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <c4f:RoundToggleButton x:Name="btnPrimaryCSharp" ButtonHeight="60" ButtonWidth="60" Grid.Row="0" Grid.Column="0" VerticalAlignment="Bottom" ImageSource="/Assets/Buttons/csharp.png" IsChecked="True" Click="btnPrimaryCSharp_Click"/>
+                                    <c4f:RoundToggleButton x:Name="btnPrimaryXaml" ButtonHeight="60" ButtonWidth="60" Grid.Row="0" Grid.Column="1" VerticalAlignment="Bottom" ImageSource="/Assets/Buttons/xml.png" Click="btnPrimaryXaml_Click"/>
+                                    <Rectangle Grid.Row="0" Grid.Column="2" Fill="{StaticResource PhoneContrastBackgroundBrush}" HorizontalAlignment="Center" VerticalAlignment="Center" Height="48" Stroke="{StaticResource PhoneContrastBackgroundBrush}" Width="2"/>
+                                    <c4f:RoundToggleButton x:Name="btnPrimaryLocal"  ButtonHeight="60" ButtonWidth="60" Grid.Row="0" Grid.Column="3" VerticalAlignment="Bottom" ImageSource="/Assets/Buttons/local.png" IsChecked="True" Click="btnPrimaryLocal_Click"/>
+                                    <c4f:RoundToggleButton x:Name="btnPrimaryRemote" ButtonHeight="60" ButtonWidth="60" Grid.Row="0" Grid.Column="4" VerticalAlignment="Bottom" ImageSource="/Assets/Buttons/remote.png" Click="btnPrimaryRemote_Click"/>
+                                </Grid>
+                            </StackPanel>
+                        </Grid>
+                    </ListBoxItem>
+                    <ListBoxItem>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="240" />
+                                <ColumnDefinition Width="75"  />
+                                <ColumnDefinition Width="75"  />
+                                <ColumnDefinition Width="75"/>
+                            </Grid.ColumnDefinitions>
+
+                            <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Horizontal">
+                                <TextBlock Text="Iconic" TextWrapping="NoWrap" Style="{StaticResource PhoneTextExtraLargeStyle}" VerticalAlignment="Center"/>
+                                <c4f:RoundToggleButton x:Name="btnIconicToggle" ButtonHeight="60" ButtonWidth="60" ImageSource="/Assets/Buttons/expand.png" VerticalAlignment="Bottom" Click="DoToggle"/>
+                            </StackPanel>
+
+                            <c4f:RoundButton x:Name="btnIconicCreate" Grid.Row="0" Grid.Column="1" ButtonWidth="75" ButtonHeight="75" ImageSource="/Assets/Buttons/pin.png" Click="btnIconicCreate_Click" />
+                            <c4f:RoundButton x:Name="btnIconicUpdate" Grid.Row="0" Grid.Column="2" ButtonWidth="75" ButtonHeight="75" ImageSource="/Assets/Buttons/update.png" Click="btnIconicUpdate_Click" />
+                            <c4f:RoundButton x:Name="btnIconicDelete" Grid.Row="0" Grid.Column="3" ButtonWidth="75" ButtonHeight="75" ImageSource="/Assets/Buttons/unpin.png" Click="btnIconicDelete_Click" />
+
+                            <TextBlock Grid.Row="1" Grid.ColumnSpan="4" Text="Create, update or delete an Iconic Tile" TextWrapping="NoWrap" Margin="12,-6,0,0" Style="{StaticResource PhoneTextSubtleStyle}"/>
+
+                            <StackPanel x:Name="iconicStack" Grid.Row="2" Grid.ColumnSpan="4" Height="0">
+                                <Grid Height="55">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*" />
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="60" />
+                                        <ColumnDefinition Width="60" />
+                                        <ColumnDefinition Width="20" />
+                                        <ColumnDefinition Width="60" />
+                                        <ColumnDefinition Width="60" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <c4f:RoundToggleButton x:Name="btnIconicCSharp" ButtonHeight="60" ButtonWidth="60" Grid.Row="0" Grid.Column="0" VerticalAlignment="Bottom" ImageSource="/Assets/Buttons/csharp.png" IsChecked="True" Click="btnIconicCSharp_Click"/>
+                                    <c4f:RoundToggleButton x:Name="btnIconicXaml" ButtonHeight="60" ButtonWidth="60" Grid.Row="0" Grid.Column="1" VerticalAlignment="Bottom" ImageSource="/Assets/Buttons/xml.png" Click="btnIconicXaml_Click"/>
+                                    <Rectangle Grid.Row="0" Grid.Column="2" Fill="{StaticResource PhoneContrastBackgroundBrush}" HorizontalAlignment="Center" VerticalAlignment="Center" Height="48" Stroke="{StaticResource PhoneContrastBackgroundBrush}" Width="2"/>
+                                    <c4f:RoundToggleButton x:Name="btnIconicLocal"  ButtonHeight="60" ButtonWidth="60" Grid.Row="0" Grid.Column="3" VerticalAlignment="Bottom" ImageSource="/Assets/Buttons/local.png" IsChecked="True" Click="btnIconicLocal_Click"/>
+                                    <c4f:RoundToggleButton x:Name="btnIconicRemote" ButtonHeight="60" ButtonWidth="60" Grid.Row="0" Grid.Column="4" VerticalAlignment="Bottom" ImageSource="/Assets/Buttons/remote.png" Click="btnIconicRemote_Click"/>
+                                </Grid>
+                            </StackPanel>
+
+                        </Grid>
+                    </ListBoxItem>
+                    <ListBoxItem>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="240" />
+                                <ColumnDefinition Width="75"  />
+                                <ColumnDefinition Width="75"  />
+                                <ColumnDefinition Width="75"  />
+                            </Grid.ColumnDefinitions>
+
+                            <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Horizontal">
+                                <TextBlock Text="Flip" TextWrapping="NoWrap" Style="{StaticResource PhoneTextExtraLargeStyle}" VerticalAlignment="Center"/>
+                                <c4f:RoundToggleButton x:Name="btnFlipToggle" ButtonHeight="60" ButtonWidth="60" ImageSource="/Assets/Buttons/expand.png" VerticalAlignment="Bottom" Click="DoToggle"/>
+                            </StackPanel>
+
+                            <c4f:RoundButton x:Name="btnFlipCreate" Grid.Row="0" Grid.Column="1" ButtonWidth="75" ButtonHeight="75" ImageSource="/Assets/Buttons/pin.png" Click="btnFlipCreate_Click" />
+                            <c4f:RoundButton x:Name="btnFlipUpdate" Grid.Row="0" Grid.Column="2" ButtonWidth="75" ButtonHeight="75" ImageSource="/Assets/Buttons/update.png" Click="btnFlipUpdate_Click" />
+                            <c4f:RoundButton x:Name="btnFlipDelete" Grid.Row="0" Grid.Column="3" ButtonWidth="75" ButtonHeight="75" ImageSource="/Assets/Buttons/unpin.png" Click="btnFlipDelete_Click" />
+
+                            <TextBlock Grid.Row="1" Grid.ColumnSpan="4" Text="Create, update or delete a Flip Tile" TextWrapping="NoWrap" Margin="12,-6,0,0" Style="{StaticResource PhoneTextSubtleStyle}"/>
+
+                            <StackPanel x:Name="flipStack" Grid.Row="2" Grid.ColumnSpan="4" Height="0">
+                                <Grid Height="55">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*" />
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="60" />
+                                        <ColumnDefinition Width="60" />
+                                        <ColumnDefinition Width="20" />
+                                        <ColumnDefinition Width="60" />
+                                        <ColumnDefinition Width="60" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <c4f:RoundToggleButton x:Name="btnFlipCSharp" ButtonHeight="60" ButtonWidth="60" Grid.Row="0" Grid.Column="0" VerticalAlignment="Bottom" ImageSource="/Assets/Buttons/csharp.png" IsChecked="True" Click="btnFlipCSharp_Click"/>
+                                    <c4f:RoundToggleButton x:Name="btnFlipXaml" ButtonHeight="60" ButtonWidth="60" Grid.Row="0" Grid.Column="1" VerticalAlignment="Bottom" ImageSource="/Assets/Buttons/xml.png" Click="btnFlipXaml_Click"/>
+                                    <Rectangle Grid.Row="0" Grid.Column="2" Fill="{StaticResource PhoneContrastBackgroundBrush}" HorizontalAlignment="Center" VerticalAlignment="Center" Height="48" Stroke="{StaticResource PhoneContrastBackgroundBrush}" Width="2"/>
+                                    <c4f:RoundToggleButton x:Name="btnFlipLocal"  ButtonHeight="60" ButtonWidth="60" Grid.Row="0" Grid.Column="3" VerticalAlignment="Bottom" ImageSource="/Assets/Buttons/local.png" IsChecked="True" Click="btnFlipLocal_Click"/>
+                                    <c4f:RoundToggleButton x:Name="btnFlipRemote" ButtonHeight="60" ButtonWidth="60" Grid.Row="0" Grid.Column="4" VerticalAlignment="Bottom" ImageSource="/Assets/Buttons/remote.png" Click="btnFlipRemote_Click" />
+                                </Grid>
+                            </StackPanel>
+                        </Grid>
+                    </ListBoxItem>
+                    <ListBoxItem>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="240" />
+                                <ColumnDefinition Width="75"  />
+                                <ColumnDefinition Width="75"  />
+                                <ColumnDefinition Width="75"  />
+                            </Grid.ColumnDefinitions>
+
+                            <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Horizontal">
+                                <TextBlock Text="Cycle" TextWrapping="NoWrap" Style="{StaticResource PhoneTextExtraLargeStyle}" VerticalAlignment="Center"/>
+                                <c4f:RoundToggleButton x:Name="btnCycleToggle" ButtonHeight="60" ButtonWidth="60" ImageSource="/Assets/Buttons/expand.png" VerticalAlignment="Bottom" Click="DoToggle"/>
+                            </StackPanel>
+
+                            <c4f:RoundButton x:Name="btnCycleCreate" Grid.Row="0" Grid.Column="1" ButtonWidth="75" ButtonHeight="75" ImageSource="/Assets/Buttons/pin.png" Click="btnCycleCreate_Click" />
+                            <c4f:RoundButton x:Name="btnCycleUpdate" Grid.Row="0" Grid.Column="2" ButtonWidth="75" ButtonHeight="75" ImageSource="/Assets/Buttons/update.png" Click="btnCycleUpdate_Click" />
+                            <c4f:RoundButton x:Name="btnCycleDelete" Grid.Row="0" Grid.Column="3" ButtonWidth="75" ButtonHeight="75" ImageSource="/Assets/Buttons/unpin.png" Click="btnCycleDelete_Click" />
+
+                            <TextBlock Grid.Row="1" Grid.ColumnSpan="4" Text="Create, update or delete a Cycle Tile" TextWrapping="NoWrap" Margin="12,-6,0,0" Style="{StaticResource PhoneTextSubtleStyle}"/>
+
+                            <StackPanel x:Name="cycleStack" Grid.Row="2" Grid.ColumnSpan="4" Height="0">
+                                <Grid Height="55">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*" />
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="60" />
+                                        <ColumnDefinition Width="60" />
+                                        <ColumnDefinition Width="20" />
+                                        <ColumnDefinition Width="60" />
+                                        <ColumnDefinition Width="60" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <c4f:RoundToggleButton x:Name="btnCycleCSharp" ButtonHeight="60" ButtonWidth="60" Grid.Row="0" Grid.Column="0" VerticalAlignment="Bottom" ImageSource="/Assets/Buttons/csharp.png" IsChecked="True" Click="btnCycleCSharp_Click"/>
+                                    <c4f:RoundToggleButton x:Name="btnCycleXaml" ButtonHeight="60" ButtonWidth="60" Grid.Row="0" Grid.Column="1" VerticalAlignment="Bottom" ImageSource="/Assets/Buttons/xml.png" Click="btnCycleXaml_Click" />
+                                </Grid>
+                            </StackPanel>
+                        </Grid>
+                    </ListBoxItem>
+                    <ListBoxItem>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="240" />
+                                <ColumnDefinition Width="75"  />
+                                <ColumnDefinition Width="75"  />
+                                <ColumnDefinition Width="75"  />
+                            </Grid.ColumnDefinitions>
+
+                            <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Horizontal">
+                                <TextBlock Text="Schedule" TextWrapping="NoWrap" Style="{StaticResource PhoneTextExtraLargeStyle}" VerticalAlignment="Center" Margin="12,4"/>
+                            </StackPanel>
+
+                            <c4f:RoundButton x:Name="btnScheduleStart" Grid.Row="0" Grid.Column="1" ButtonWidth="75" ButtonHeight="75" ImageSource="/Assets/Buttons/start.png" Click="btnScheduleStart_Click" />
+                            <c4f:RoundButton x:Name="btnScheduleStop" Grid.Row="0" Grid.Column="2" ButtonWidth="75" ButtonHeight="75" ImageSource="/Assets/Buttons/stop.png" Click="btnScheduleStop_Click" />
+      
+                            <TextBlock Grid.Row="1" Grid.ColumnSpan="4" Text="Update the primary time on a schedule" TextWrapping="NoWrap" Margin="12,-6,0,0" Style="{StaticResource PhoneTextSubtleStyle}"/>
+
+                            <StackPanel x:Name="scheduleStack" Grid.Row="2" Grid.ColumnSpan="4">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+
+
+                                    <StackPanel Grid.Column="0">
+                                        <RadioButton Content="Interval" Tag="Interval" GroupName="Recurrence" IsChecked="true" Checked="ScheduleRecurrenceChanged"/>
+                                        <RadioButton Content="One time" Tag="Onetime" GroupName="Recurrence" Checked="ScheduleRecurrenceChanged"/>
+                                    </StackPanel>
+
+
+                                    <StackPanel Grid.Column="1">
+                                        <RadioButton Content="Hourly" Tag="EveryHour" GroupName="Interval" Checked="ScheduleIntervalChanged" IsChecked="true"/>
+                                        <RadioButton Content="Daily" Tag="EveryDay" GroupName="Interval" Checked="ScheduleIntervalChanged"/>
+                                        <RadioButton Content="Monthly" Tag="EveryMonth" GroupName="Interval" Checked="ScheduleIntervalChanged" />
+                                        <RadioButton Content="Weekly" Tag="EveryWeek" GroupName="Interval" Checked="ScheduleIntervalChanged"/>
+                                    </StackPanel>
+
+                                </Grid>
+                            </StackPanel>
+                        </Grid>
+                    </ListBoxItem>
+                </ListBox>
+            </phone:PivotItem>
+
+            <!--Pivot item two-->
+            <phone:PivotItem Header="lock">
+                <ListBox x:Name="ThirdListBox" Margin="0,0,-12,0" ItemContainerStyle="{StaticResource ListBoxItemStretchContentStyle}">
+                    <ListBoxItem>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="*"  />
+                            </Grid.ColumnDefinitions>
+
+                            <TextBlock Grid.Row="0" Grid.Column="0" Text="Allow" TextWrapping="NoWrap" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}" VerticalAlignment="Center"/>
+                            <c4f:RoundToggleButton Grid.Row="0" Grid.Column="1" x:Name="btnAllow" ButtonWidth="75" ButtonHeight="75" HorizontalAlignment="Right" VerticalAlignment="Center" ImageSource="/Assets/Buttons/allow.png" Click="btnAllow_Click" />
+                            <TextBlock Grid.Row="1" Grid.ColumnSpan="2" Text="Ask to be the lock screen background provider" TextWrapping="NoWrap" Margin="12,-6,0,0" Style="{StaticResource PhoneTextSubtleStyle}"/>
+                        </Grid>
+                    </ListBoxItem>
+                    <ListBoxItem>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="*"  />
+                            </Grid.ColumnDefinitions>
+
+                            <TextBlock Grid.Row="0" Grid.Column="0" Text="Set" TextWrapping="NoWrap" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}" VerticalAlignment="Center"/>
+                            <c4f:RoundToggleButton Grid.Row="0" Grid.Column="1" x:Name="btnSet" ButtonWidth="75" ButtonHeight="75" HorizontalAlignment="Right" VerticalAlignment="Center" ImageSource="/Assets/Buttons/set.png" Click="btnSet_Click" />
+                            <TextBlock Grid.Row="1" Grid.ColumnSpan="2" Text="Set the backgrond to an image from the XAP" TextWrapping="NoWrap" Margin="12,-6,0,0" Style="{StaticResource PhoneTextSubtleStyle}"/>
+                        </Grid>
+                    </ListBoxItem>
+                    <ListBoxItem>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="*"  />
+                            </Grid.ColumnDefinitions>
+
+                            <TextBlock Grid.Row="0" Grid.Column="0" Text="Pick" TextWrapping="NoWrap" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}" VerticalAlignment="Center"/>
+                            <c4f:RoundToggleButton Grid.Row="0" Grid.Column="1" x:Name="btnPick" ButtonWidth="75" ButtonHeight="75" HorizontalAlignment="Right" VerticalAlignment="Center" ImageSource="/Assets/Buttons/pick.png" Click="btnPick_Click" />
+                            <TextBlock Grid.Row="1" Text="Pick a background with the photo chooser" TextWrapping="NoWrap" Margin="12,-6,0,0" Style="{StaticResource PhoneTextSubtleStyle}"/>
+                        </Grid>
+                    </ListBoxItem>
+                    <ListBoxItem>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="*"  />
+                            </Grid.ColumnDefinitions>
+
+                            <TextBlock Grid.Row="0" Grid.Column="0" Text="Reset" TextWrapping="NoWrap" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}" VerticalAlignment="Center"/>
+                            <c4f:RoundToggleButton Grid.Row="0" Grid.Column="1" x:Name="btnReset" ButtonWidth="75" ButtonHeight="75" HorizontalAlignment="Right" VerticalAlignment="Center" ImageSource="/Assets/Buttons/reset.png" Click="btnReset_Click" />
+                            <TextBlock Grid.Row="1" Text="Reset to the default background" TextWrapping="NoWrap" Margin="12,-6,0,0" Style="{StaticResource PhoneTextSubtleStyle}"/>
+                        </Grid>
+                    </ListBoxItem>
+                  
+                    <ListBoxItem>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="*"  />
+                            </Grid.ColumnDefinitions>
+
+                            <TextBlock Grid.Row="0" Grid.Column="0" Text="Live Lock" TextWrapping="NoWrap" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}" VerticalAlignment="Center"/>
+
+                            <c4f:RoundToggleButton 
+                                    Grid.Row="0" 
+                                    Grid.Column="1" 
+                                    x:Name="btnLiveLock" 
+                                    ButtonWidth="75" 
+                                    ButtonHeight="75" 
+                                    HorizontalAlignment="Right" 
+                                    VerticalAlignment="Center" 
+                                    ImageSource="/Assets/Buttons/livelock.png" 
+                                    Click="btnLiveLock_Click" />
+
+                            <TextBlock Grid.Row="1" Text="Live Lock using a periodic task" TextWrapping="NoWrap" Margin="12,-6,0,0" Style="{StaticResource PhoneTextSubtleStyle}"/>
+                        </Grid>
+                    </ListBoxItem>
+                </ListBox>
+            </phone:PivotItem>
+        </phone:Pivot>
+
+    </Grid>
+
+</phone:PhoneApplicationPage>

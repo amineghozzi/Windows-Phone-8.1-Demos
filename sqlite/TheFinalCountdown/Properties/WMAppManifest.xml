@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
+  <DefaultLanguage xmlns="" code="en" />
+  <App xmlns="" ProductID="{d110a124-e04d-4e3b-9a81-bfb19e3348cd}" Title="The Final Countdown" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Thomas Fennel" Description="Lock and Tile Sample App" Publisher="Thomas Fennel" PublisherID="{e248a4d4-4b4e-40b6-90ff-e1d80e324f51}">
+    <IconPath IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</IconPath>
+    <Capabilities>
+      <Capability Name="ID_CAP_NETWORKING" />
+      <Capability Name="ID_CAP_MEDIALIB_PHOTO" />
+      <Capability Name="ID_CAP_PUSH_NOTIFICATION" />
+    </Capabilities>
+    <Tasks>
+      <DefaultTask Name="_default" NavigationPage="MainPage.xaml">
+      </DefaultTask>
+      <ExtendedTask Name="BackgroundTask">
+        <BackgroundServiceAgent Specifier="ScheduledTaskAgent" Name="ScheduledTaskAgent1" Source="ScheduledTaskAgent1" Type="ScheduledTaskAgent1.ScheduledAgent" />
+      </ExtendedTask>
+    </Tasks>
+    <Tokens>
+      <PrimaryToken TokenID="The_Final_CountdownToken" TaskName="_default">
+        <TemplateIconic>
+          <SmallImageURI IsRelative="true" IsResource="false">Assets\Tiles\iconic_smalliconimage.png</SmallImageURI>
+          <Count>
+          </Count>
+          <IconImageURI IsRelative="true" IsResource="false">Assets\Tiles\iconic_iconimage.png</IconImageURI>
+          <Title>The Final Countdown</Title>
+          <Message>
+          </Message>
+          <BackgroundColor>
+          </BackgroundColor>
+          <HasLarge>True</HasLarge>
+          <LargeContent1>
+          </LargeContent1>
+          <LargeContent2>
+          </LargeContent2>
+          <LargeContent3>
+          </LargeContent3>
+          <DeviceLockImageURI IsRelative="true" IsResource="false">Assets\Lock\LockIcon.png</DeviceLockImageURI>
+        </TemplateIconic>
+      </PrimaryToken>
+    </Tokens>
+    <Extensions>
+      <!--Try to be thoughtful and only use the extensions you are really providing value for.
+      For example, if you rarely use the content properties of the templates, don't use the "TextField" extension
+      as users may be disappointed when they set your app there, but updates rarely ever show up.-->
+      
+      <!--Use this guy if you use a count on your tile.-->
+      <Extension ExtensionName="LockScreen_Notification_IconCount" ConsumerID="{111DFF24-AA15-4A96-8006-2BFF8122084F}" TaskID="_default" />
+      <!--Use this guy if you use any of the Content string properties on the tile-->
+      <Extension ExtensionName="LockScreen_Notification_TextField" ConsumerID="{111DFF24-AA15-4A96-8006-2BFF8122084F}" TaskID="_default" />
+      <!--Use this guy if you intend to set the lock screen background image-->
+      <Extension ExtensionName="LockScreen_Background" ConsumerID="{111DFF24-AA15-4A96-8006-2BFF8122084F}" TaskID="_default" />
+    </Extensions>
+    <ScreenResolutions>
+      <ScreenResolution Name="ID_RESOLUTION_WVGA" />
+      <ScreenResolution Name="ID_RESOLUTION_WXGA" />
+      <ScreenResolution Name="ID_RESOLUTION_HD720P" />
+    </ScreenResolutions>
+  </App>
+</Deployment>

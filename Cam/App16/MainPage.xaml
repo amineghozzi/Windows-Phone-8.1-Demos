@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="App16.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App16"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <CaptureElement x:Name="capturePreview" Margin="0,0,0,378" />
+        <Image x:Name="imagePreivew" Margin="0,262,0,115" />
+        <Button Click="Start_Capture_Preview_Click" Content="Start Capture Preview" Margin="8,529,0,51" 
+                Height="60" Width="221" />
+        <Button Click="Capture_Photo_Click" Content="Capture Photo" Margin="243,529,0,1" Width="147" 
+                Height="110"/>
+        <Button Click="Stop_Capture_Preview_Click" Content="Stop Capture Preview" Margin="10,580,0,0" 
+                Height="60" Width="219"/>
+    </Grid>
+</Page>

@@ -1,0 +1,96 @@
+c:\users\amine ghozzi\documents\visual studio 2013\Projects\App15\App15\bin\Debug\App.xbf
+c:\users\amine ghozzi\documents\visual studio 2013\Projects\App15\App15\bin\Debug\MainPage.xbf
+c:\users\amine ghozzi\documents\visual studio 2013\Projects\App15\App15\bin\Debug\App15.xr.xml
+c:\users\amine ghozzi\documents\visual studio 2013\Projects\App15\App15\bin\Debug\App15.exe
+c:\users\amine ghozzi\documents\visual studio 2013\Projects\App15\App15\bin\Debug\App15.pdb
+c:\users\amine ghozzi\documents\visual studio 2013\Projects\App15\App15\bin\Debug\resources.pri
+c:\users\amine ghozzi\documents\visual studio 2013\Projects\App15\App15\bin\Debug\AppxManifest.xml
+c:\users\amine ghozzi\documents\visual studio 2013\Projects\App15\App15\bin\Debug\App15.build.appxrecipe
+c:\users\amine ghozzi\documents\visual studio 2013\Projects\App15\App15\obj\Debug\App.g.i.cs
+c:\users\amine ghozzi\documents\visual studio 2013\Projects\App15\App15\obj\Debug\App.g.cs
+c:\users\amine ghozzi\documents\visual studio 2013\Projects\App15\App15\obj\Debug\MainPage.g.i.cs
+c:\users\amine ghozzi\documents\visual studio 2013\Projects\App15\App15\obj\Debug\MainPage.g.cs
+c:\users\amine ghozzi\documents\visual studio 2013\Projects\App15\App15\obj\Debug\XamlTypeInfo.g.cs
+c:\users\amine ghozzi\documents\visual studio 2013\Projects\App15\App15\obj\Debug\App.xaml
+c:\users\amine ghozzi\documents\visual studio 2013\Projects\App15\App15\obj\Debug\App.xbf
+c:\users\amine ghozzi\documents\visual studio 2013\Projects\App15\App15\obj\Debug\XamlSaveStateFile.xml
+c:\users\amine ghozzi\documents\visual studio 2013\Projects\App15\App15\obj\Debug\MainPage.xaml
+c:\users\amine ghozzi\documents\visual studio 2013\Projects\App15\App15\obj\Debug\MainPage.xbf
+c:\users\amine ghozzi\documents\visual studio 2013\Projects\App15\App15\obj\Debug\App15.exe
+c:\users\amine ghozzi\documents\visual studio 2013\Projects\App15\App15\obj\Debug\App15.pdb
+c:\users\amine ghozzi\documents\visual studio 2013\Projects\App15\App15\obj\Debug\priconfig.xml
+c:\users\amine ghozzi\documents\visual studio 2013\Projects\App15\App15\obj\Debug\priconfig.xml.intermediate
+c:\users\amine ghozzi\documents\visual studio 2013\Projects\App15\App15\obj\Debug\layout.resfiles
+c:\users\amine ghozzi\documents\visual studio 2013\Projects\App15\App15\obj\Debug\layout.resfiles.intermediate
+c:\users\amine ghozzi\documents\visual studio 2013\Projects\App15\App15\obj\Debug\resources.resfiles
+c:\users\amine ghozzi\documents\visual studio 2013\Projects\App15\App15\obj\Debug\resources.resfiles.intermediate
+c:\users\amine ghozzi\documents\visual studio 2013\Projects\App15\App15\obj\Debug\pri.resfiles
+c:\users\amine ghozzi\documents\visual studio 2013\Projects\App15\App15\obj\Debug\pri.resfiles.intermediate
+c:\users\amine ghozzi\documents\visual studio 2013\Projects\App15\App15\obj\Debug\qualifiers.txt
+c:\users\amine ghozzi\documents\visual studio 2013\Projects\App15\App15\obj\Debug\qualifiers.txt.intermediate
+c:\users\amine ghozzi\documents\visual studio 2013\Projects\App15\App15\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+c:\users\amine ghozzi\documents\visual studio 2013\Projects\App15\App15\obj\Debug\ProjectArchitectures.txt
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\GPS\App15\bin\Debug\App.xbf
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\GPS\App15\bin\Debug\MainPage.xbf
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\GPS\App15\bin\Debug\App15.xr.xml
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\GPS\App15\bin\Debug\App15.exe
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\GPS\App15\bin\Debug\App15.pdb
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\GPS\App15\bin\Debug\resources.pri
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\GPS\App15\bin\Debug\AppxManifest.xml
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\GPS\App15\bin\Debug\App15.build.appxrecipe
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\GPS\App15\obj\Debug\App.g.i.cs
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\GPS\App15\obj\Debug\App.g.cs
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\GPS\App15\obj\Debug\MainPage.g.i.cs
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\GPS\App15\obj\Debug\MainPage.g.cs
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\GPS\App15\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\GPS\App15\obj\Debug\App.xaml
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\GPS\App15\obj\Debug\MainPage.xaml
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\GPS\App15\obj\Debug\App.xbf
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\GPS\App15\obj\Debug\MainPage.xbf
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\GPS\App15\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\GPS\App15\obj\Debug\App15.exe
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\GPS\App15\obj\Debug\App15.pdb
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\GPS\App15\obj\Debug\priconfig.xml
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\GPS\App15\obj\Debug\priconfig.xml.intermediate
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\GPS\App15\obj\Debug\layout.resfiles
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\GPS\App15\obj\Debug\layout.resfiles.intermediate
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\GPS\App15\obj\Debug\resources.resfiles
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\GPS\App15\obj\Debug\resources.resfiles.intermediate
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\GPS\App15\obj\Debug\pri.resfiles
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\GPS\App15\obj\Debug\pri.resfiles.intermediate
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\GPS\App15\obj\Debug\qualifiers.txt
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\GPS\App15\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\GPS\App15\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Amine Ghozzi\Desktop\Formation session 2\GPS\App15\obj\Debug\ProjectArchitectures.txt
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\GPS\App15\bin\Debug\App.xbf
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\GPS\App15\bin\Debug\MainPage.xbf
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\GPS\App15\bin\Debug\App15.xr.xml
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\GPS\App15\bin\Debug\App15.exe
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\GPS\App15\bin\Debug\App15.pdb
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\GPS\App15\bin\Debug\resources.pri
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\GPS\App15\bin\Debug\AppxManifest.xml
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\GPS\App15\bin\Debug\App15.build.appxrecipe
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\GPS\App15\obj\Debug\App.g.i.cs
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\GPS\App15\obj\Debug\App.g.cs
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\GPS\App15\obj\Debug\MainPage.g.i.cs
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\GPS\App15\obj\Debug\MainPage.g.cs
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\GPS\App15\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\GPS\App15\obj\Debug\App.xaml
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\GPS\App15\obj\Debug\MainPage.xaml
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\GPS\App15\obj\Debug\App.xbf
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\GPS\App15\obj\Debug\MainPage.xbf
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\GPS\App15\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\GPS\App15\obj\Debug\App15.exe
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\GPS\App15\obj\Debug\App15.pdb
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\GPS\App15\obj\Debug\priconfig.xml
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\GPS\App15\obj\Debug\priconfig.xml.intermediate
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\GPS\App15\obj\Debug\layout.resfiles
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\GPS\App15\obj\Debug\layout.resfiles.intermediate
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\GPS\App15\obj\Debug\resources.resfiles
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\GPS\App15\obj\Debug\resources.resfiles.intermediate
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\GPS\App15\obj\Debug\pri.resfiles
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\GPS\App15\obj\Debug\pri.resfiles.intermediate
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\GPS\App15\obj\Debug\qualifiers.txt
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\GPS\App15\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\GPS\App15\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Amine Ghozzi\Desktop\Demos WP8.1\GPS\App15\obj\Debug\ProjectArchitectures.txt
